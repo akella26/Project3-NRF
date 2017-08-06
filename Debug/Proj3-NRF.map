@@ -10,10 +10,17 @@ Archive member included because of file (symbol)
                               /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o) (_global_impure_ptr)
 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
                               /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (__libc_init_array)
+/opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
+                              ./Sources/project3.o (memcpy)
 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
                               /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o (memset)
 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
                               /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o) (_exit)
+
+Allocating common symbols
+Common symbol       size              file
+
+spi_stat            0x1               ./Sources/main.o
 
 Discarded input sections
 
@@ -24,6 +31,7 @@ Discarded input sections
  .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
  .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
  .ARM.extab     0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+ .group         0x00000000        0x8 ./Sources/gpio.o
  .group         0x00000000        0x8 ./Sources/gpio.o
  .group         0x00000000        0x8 ./Sources/gpio.o
  .group         0x00000000        0x8 ./Sources/gpio.o
@@ -68,6 +76,27 @@ Discarded input sections
  .group         0x00000000        0x8 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/main.o
  .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/main.o
  .text          0x00000000        0x0 ./Sources/main.o
  .data          0x00000000        0x0 ./Sources/main.o
  .bss           0x00000000        0x0 ./Sources/main.o
@@ -81,6 +110,28 @@ Discarded input sections
  .debug_macro   0x00000000      0x306 ./Sources/main.o
  .debug_macro   0x00000000       0x63 ./Sources/main.o
  .debug_macro   0x00000000     0x839f ./Sources/main.o
+ .debug_macro   0x00000000       0x58 ./Sources/main.o
+ .debug_macro   0x00000000       0x35 ./Sources/main.o
+ .debug_macro   0x00000000       0xa3 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x97 ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
+ .debug_macro   0x00000000       0xef ./Sources/main.o
+ .debug_macro   0x00000000       0x52 ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x43 ./Sources/main.o
+ .debug_macro   0x00000000      0x180 ./Sources/main.o
+ .debug_macro   0x00000000       0x10 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .debug_macro   0x00000000       0xbd ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000      0x14a ./Sources/main.o
+ .debug_macro   0x00000000       0x16 ./Sources/main.o
+ .debug_macro   0x00000000       0x35 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .debug_macro   0x00000000       0x22 ./Sources/main.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/nordic.o
  .group         0x00000000        0x8 ./Sources/nordic.o
  .group         0x00000000        0x8 ./Sources/nordic.o
  .group         0x00000000        0x8 ./Sources/nordic.o
@@ -115,11 +166,10 @@ Discarded input sections
  .text          0x00000000        0x0 ./Sources/nordic.o
  .data          0x00000000        0x0 ./Sources/nordic.o
  .bss           0x00000000        0x0 ./Sources/nordic.o
- .debug_info    0x00000000       0x8b ./Sources/nordic.o
- .debug_abbrev  0x00000000       0x29 ./Sources/nordic.o
- .debug_aranges
-                0x00000000       0x18 ./Sources/nordic.o
- .debug_macro   0x00000000      0x197 ./Sources/nordic.o
+ .text.nrf_flush_tx_fifo
+                0x00000000       0x20 ./Sources/nordic.o
+ .text.nrf_flush_rx_fifo
+                0x00000000       0x20 ./Sources/nordic.o
  .debug_macro   0x00000000      0x802 ./Sources/nordic.o
  .debug_macro   0x00000000       0x16 ./Sources/nordic.o
  .debug_macro   0x00000000       0x44 ./Sources/nordic.o
@@ -150,12 +200,9 @@ Discarded input sections
  .debug_macro   0x00000000      0x306 ./Sources/nordic.o
  .debug_macro   0x00000000       0x63 ./Sources/nordic.o
  .debug_macro   0x00000000     0x839f ./Sources/nordic.o
- .debug_macro   0x00000000       0xde ./Sources/nordic.o
- .debug_line    0x00000000      0x29d ./Sources/nordic.o
- .debug_str     0x00000000    0x3448f ./Sources/nordic.o
- .comment       0x00000000       0x71 ./Sources/nordic.o
- .ARM.attributes
-                0x00000000       0x32 ./Sources/nordic.o
+ .group         0x00000000        0x8 ./Sources/project3.o
+ .group         0x00000000        0x8 ./Sources/project3.o
+ .group         0x00000000        0x8 ./Sources/project3.o
  .group         0x00000000        0x8 ./Sources/project3.o
  .group         0x00000000        0x8 ./Sources/project3.o
  .group         0x00000000        0x8 ./Sources/project3.o
@@ -213,6 +260,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x35 ./Sources/project3.o
  .debug_macro   0x00000000       0x22 ./Sources/project3.o
  .debug_macro   0x00000000       0x22 ./Sources/project3.o
+ .debug_macro   0x00000000       0x1c ./Sources/project3.o
  .debug_macro   0x00000000       0x4c ./Sources/project3.o
  .debug_macro   0x00000000       0x3a ./Sources/project3.o
  .debug_macro   0x00000000       0x26 ./Sources/project3.o
@@ -249,11 +297,12 @@ Discarded input sections
  .group         0x00000000        0x8 ./Sources/spi.o
  .group         0x00000000        0x8 ./Sources/spi.o
  .group         0x00000000        0x8 ./Sources/spi.o
+ .group         0x00000000        0x8 ./Sources/spi.o
  .text          0x00000000        0x0 ./Sources/spi.o
  .data          0x00000000        0x0 ./Sources/spi.o
  .bss           0x00000000        0x0 ./Sources/spi.o
  .text.SPI_read_byte
-                0x00000000       0x34 ./Sources/spi.o
+                0x00000000       0x3c ./Sources/spi.o
  .text.SPI_send_packet
                 0x00000000       0x40 ./Sources/spi.o
  .text.SPI_flush
@@ -280,6 +329,7 @@ Discarded input sections
  .debug_macro   0x00000000      0x14a ./Sources/spi.o
  .debug_macro   0x00000000       0x16 ./Sources/spi.o
  .debug_macro   0x00000000       0x35 ./Sources/spi.o
+ .debug_macro   0x00000000       0x22 ./Sources/spi.o
  .debug_macro   0x00000000       0x22 ./Sources/spi.o
  .debug_macro   0x00000000       0x22 ./Sources/spi.o
  .debug_macro   0x00000000       0x4c ./Sources/spi.o
@@ -339,6 +389,9 @@ Discarded input sections
  .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
  .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
  .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
+ .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
  .text          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
  .data          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
  .bss           0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
@@ -410,7 +463,7 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
  .FlashConfig   0x00000400       0x10 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
                 0x00000410                . = ALIGN (0x4)
 
-.text           0x00000410      0x310
+.text           0x00000410      0x794
                 0x00000410                . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x60 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
@@ -459,120 +512,157 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
                 0x00000514                DMA1_IRQHandler
  *(.text*)
  .text.GPIO_nrf_init
-                0x0000051c       0x60 ./Sources/gpio.o
+                0x0000051c       0x7c ./Sources/gpio.o
                 0x0000051c                GPIO_nrf_init
- .text.GPIO_CS_high
-                0x0000057c       0x14 ./Sources/gpio.o
-                0x0000057c                GPIO_CS_high
- .text.GPIO_CS_low
-                0x00000590       0x14 ./Sources/gpio.o
-                0x00000590                GPIO_CS_low
- .text.main     0x000005a4       0x10 ./Sources/main.o
-                0x000005a4                main
+ .text.main     0x00000598       0x10 ./Sources/main.o
+                0x00000598                main
+ .text.nrf_read_register
+                0x000005a8       0x34 ./Sources/nordic.o
+                0x000005a8                nrf_read_register
+ .text.nrf_write_register
+                0x000005dc       0x34 ./Sources/nordic.o
+                0x000005dc                nrf_write_register
+ .text.nrf_read_status
+                0x00000610       0x30 ./Sources/nordic.o
+                0x00000610                nrf_read_status
+ .text.nrf_write_config
+                0x00000640       0x30 ./Sources/nordic.o
+                0x00000640                nrf_write_config
+ .text.nrf_read_config
+                0x00000670       0x30 ./Sources/nordic.o
+                0x00000670                nrf_read_config
+ .text.nrf_read_rf_setup
+                0x000006a0       0x30 ./Sources/nordic.o
+                0x000006a0                nrf_read_rf_setup
+ .text.nrf_write_rf_setup
+                0x000006d0       0x30 ./Sources/nordic.o
+                0x000006d0                nrf_write_rf_setup
+ .text.nrf_read_rf_ch
+                0x00000700       0x30 ./Sources/nordic.o
+                0x00000700                nrf_read_rf_ch
+ .text.nrf_write_rf_ch
+                0x00000730       0x30 ./Sources/nordic.o
+                0x00000730                nrf_write_rf_ch
+ .text.nrf_read_TX_ADDR
+                0x00000760       0x5c ./Sources/nordic.o
+                0x00000760                nrf_read_TX_ADDR
+ .text.nrf_write_TX_ADDR
+                0x000007bc       0x58 ./Sources/nordic.o
+                0x000007bc                nrf_write_TX_ADDR
+ .text.nrf_read_fifo_status
+                0x00000814       0x30 ./Sources/nordic.o
+                0x00000814                nrf_read_fifo_status
  .text.project3
-                0x000005b4       0x20 ./Sources/project3.o
-                0x000005b4                project3
+                0x00000844       0x18 ./Sources/project3.o
+                0x00000844                project3
+ .text.test_spi
+                0x0000085c      0x1f0 ./Sources/project3.o
+                0x0000085c                test_spi
  .text.SPI_init
-                0x000005d4       0x2c ./Sources/spi.o
-                0x000005d4                SPI_init
+                0x00000a4c       0x18 ./Sources/spi.o
+                0x00000a4c                SPI_init
  .text.SPI_write_byte
-                0x00000600       0x5c ./Sources/spi.o
-                0x00000600                SPI_write_byte
+                0x00000a64       0x60 ./Sources/spi.o
+                0x00000a64                SPI_write_byte
  .text.SystemInit
-                0x0000065c       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
-                0x0000065c                SystemInit
- .text.exit     0x00000674       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
-                0x00000674                exit
+                0x00000ac4       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x00000ac4                SystemInit
+ .text.exit     0x00000adc       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
+                0x00000adc                exit
  .text.__libc_init_array
-                0x000006a0       0x4c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
-                0x000006a0                __libc_init_array
- .text.memset   0x000006ec       0x10 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
-                0x000006ec                memset
- .text._exit    0x000006fc        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
-                0x000006fc                _exit
+                0x00000b08       0x4c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
+                0x00000b08                __libc_init_array
+ .text.memcpy   0x00000b54       0x12 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
+                0x00000b54                memcpy
+ .text.memset   0x00000b66       0x10 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
+                0x00000b66                memset
+ *fill*         0x00000b76        0x2 
+ .text._exit    0x00000b78        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x00000b78                _exit
  *(.rodata)
+ .rodata        0x00000b7c        0x8 ./Sources/project3.o
  *(.rodata*)
  .rodata.str1.1
-                0x00000700        0x2 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
- *fill*         0x00000702        0x2 
+                0x00000b84        0x2 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
+ *fill*         0x00000b86        0x2 
  .rodata._global_impure_ptr
-                0x00000704        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
-                0x00000704                _global_impure_ptr
+                0x00000b88        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
+                0x00000b88                _global_impure_ptr
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x00000708        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+ .eh_frame      0x00000b8c        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
  *(.init)
- .init          0x00000708        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
-                0x00000708                _init
- .init          0x0000070c        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+ .init          0x00000b8c        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000b8c                _init
+ .init          0x00000b90        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
  *(.fini)
- .fini          0x00000714        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
-                0x00000714                _fini
- .fini          0x00000718        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
-                0x00000720                . = ALIGN (0x4)
+ .fini          0x00000b98        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crti.o
+                0x00000b98                _fini
+ .fini          0x00000b9c        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000ba4                . = ALIGN (0x4)
 
-.vfp11_veneer   0x00000720        0x0
+.vfp11_veneer   0x00000ba4        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00000720        0x0
+.v4_bx          0x00000ba4        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00000720        0x0
+.iplt           0x00000ba4        0x0
  .iplt          0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00000720        0x8
-                0x00000720                __exidx_start = .
+.ARM            0x00000ba4        0x8
+                0x00000ba4                __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x00000720        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
-                0x00000728                __exidx_end = .
+ .ARM.exidx     0x00000ba4        0x8 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/crt0.o
+                0x00000bac                __exidx_end = .
 
-.rel.dyn        0x00000728        0x0
+.rel.dyn        0x00000bac        0x0
  .rel.iplt      0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
-.ctors          0x00000728        0x0
-                0x00000728                __CTOR_LIST__ = .
+.ctors          0x00000bac        0x0
+                0x00000bac                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x00000728                __CTOR_END__ = .
+                0x00000bac                __CTOR_END__ = .
 
-.dtors          0x00000728        0x0
-                0x00000728                __DTOR_LIST__ = .
+.dtors          0x00000bac        0x0
+                0x00000bac                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *crtbegin?.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x00000728                __DTOR_END__ = .
+                0x00000bac                __DTOR_END__ = .
 
-.preinit_array  0x00000728        0x0
-                0x00000728                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x00000bac        0x0
+                0x00000bac                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00000728                PROVIDE (__preinit_array_end, .)
+                0x00000bac                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00000728        0x4
-                0x00000728                PROVIDE (__init_array_start, .)
+.init_array     0x00000bac        0x4
+                0x00000bac                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
- .init_array    0x00000728        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
-                0x0000072c                PROVIDE (__init_array_end, .)
+ .init_array    0x00000bac        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x00000bb0                PROVIDE (__init_array_end, .)
 
-.fini_array     0x0000072c        0x4
-                0x0000072c                PROVIDE (__fini_array_start, .)
+.fini_array     0x00000bb0        0x4
+                0x00000bb0                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000072c        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
-                0x00000730                PROVIDE (__fini_array_end, .)
-                0x00000730                __etext = .
-                0x00000730                __DATA_ROM = .
+ .fini_array    0x00000bb0        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
+                0x00000bb4                PROVIDE (__fini_array_end, .)
+                0x00000bb4                __etext = .
+                0x00000bb4                __DATA_ROM = .
 
 .mtb            0x1ffff000        0x0
                 0x1ffff000                . = ALIGN (0x8)
@@ -581,7 +671,7 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
                 0x1ffff000                . = ALIGN (0x8)
                 0x1ffff000                _mtb_end = .
 
-.data           0x1ffff000       0x64 load address 0x00000730
+.data           0x1ffff000       0x64 load address 0x00000bb4
                 0x1ffff000                . = ALIGN (0x4)
                 0x1ffff000                __DATA_RAM = .
                 0x1ffff000                __data_start__ = .
@@ -594,12 +684,12 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
  .jcr           0x1ffff060        0x4 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
                 0x1ffff064                . = ALIGN (0x4)
                 0x1ffff064                __data_end__ = .
-                0x00000794                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
+                0x00000c18                __DATA_END = (__DATA_ROM + (__data_end__ - __data_start__))
 
-.igot.plt       0x1ffff064        0x0 load address 0x00000794
+.igot.plt       0x1ffff064        0x0 load address 0x00000c18
  .igot.plt      0x00000000        0x0 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
 
-.bss            0x1ffff064       0x1c load address 0x00000794
+.bss            0x1ffff064       0x20 load address 0x00000c18
                 0x1ffff064                . = ALIGN (0x4)
                 0x1ffff064                __START_BSS = .
                 0x1ffff064                __bss_start__ = .
@@ -607,23 +697,27 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
  .bss           0x1ffff064       0x1c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtbegin.o
  *(.bss*)
  *(COMMON)
-                0x1ffff080                . = ALIGN (0x4)
-                0x1ffff080                __bss_end__ = .
-                0x1ffff080                __END_BSS = .
+ COMMON         0x1ffff080        0x1 ./Sources/main.o
+                0x1ffff080                spi_stat
+                0x1ffff084                . = ALIGN (0x4)
+ *fill*         0x1ffff081        0x3 
+                0x1ffff084                __bss_end__ = .
+                0x1ffff084                __END_BSS = .
 
-.heap           0x1ffff080      0x400 load address 0x000007b0
-                0x1ffff080                . = ALIGN (0x8)
-                0x1ffff080                __end__ = .
-                0x1ffff080                PROVIDE (end, .)
-                0x1ffff080                __HeapBase = .
-                0x1ffff480                . = (. + HEAP_SIZE)
- *fill*         0x1ffff080      0x400 
-                0x1ffff480                __HeapLimit = .
+.heap           0x1ffff084      0x404 load address 0x00000c38
+                0x1ffff088                . = ALIGN (0x8)
+ *fill*         0x1ffff084        0x4 
+                0x1ffff088                __end__ = .
+                0x1ffff088                PROVIDE (end, .)
+                0x1ffff088                __HeapBase = .
+                0x1ffff488                . = (. + HEAP_SIZE)
+ *fill*         0x1ffff088      0x400 
+                0x1ffff488                __HeapLimit = .
 
-.stack          0x1ffff480      0x400 load address 0x00000bb0
-                0x1ffff480                . = ALIGN (0x8)
-                0x1ffff880                . = (. + STACK_SIZE)
- *fill*         0x1ffff480      0x400 
+.stack          0x1ffff488      0x400 load address 0x0000103c
+                0x1ffff488                . = ALIGN (0x8)
+                0x1ffff888                . = (. + STACK_SIZE)
+ *fill*         0x1ffff488      0x400 
                 0x20003000                __StackTop = (ORIGIN (m_data) + 0x4000)
                 0x20002c00                __StackLimit = (__StackTop - STACK_SIZE)
                 0x20003000                PROVIDE (__stack, __StackTop)
@@ -642,141 +736,164 @@ LOAD /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/
  .ARM.attributes
                 0x00000097       0x32 ./Sources/main.o
  .ARM.attributes
-                0x000000c9       0x32 ./Sources/project3.o
+                0x000000c9       0x32 ./Sources/nordic.o
  .ARM.attributes
-                0x000000fb       0x32 ./Sources/spi.o
+                0x000000fb       0x32 ./Sources/project3.o
  .ARM.attributes
-                0x0000012d       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x0000012d       0x32 ./Sources/spi.o
  .ARM.attributes
-                0x00000148       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x0000015f       0x1b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
  .ARM.attributes
-                0x0000017a       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
+                0x0000017a       0x32 ./Project_Settings/Startup_Code/system_MKL25Z4.o
  .ARM.attributes
-                0x000001a6       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
+                0x000001ac       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
  .ARM.attributes
-                0x000001d2       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
+                0x000001d8       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-impure.o)
  .ARM.attributes
-                0x000001fe       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
+                0x00000204       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
  .ARM.attributes
-                0x0000022a       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+                0x00000230       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
  .ARM.attributes
-                0x00000256       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+                0x0000025c       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000282       0x1e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
+                0x00000288       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+ .ARM.attributes
+                0x000002b4       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtend.o
+ .ARM.attributes
+                0x000002e0       0x1e /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/armv6-m/crtn.o
                 0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region m_data overflowed with stack and heap)
 OUTPUT(Proj3-NRF.elf elf32-littlearm)
 
-.debug_info     0x00000000      0xb7b
- .debug_info    0x00000000      0x3a6 ./Sources/gpio.o
- .debug_info    0x000003a6       0xad ./Sources/main.o
- .debug_info    0x00000453       0xb4 ./Sources/project3.o
- .debug_info    0x00000507      0x1f9 ./Sources/spi.o
- .debug_info    0x00000700       0x8e ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_info    0x0000078e      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_info     0x00000000      0xfd0
+ .debug_info    0x00000000      0x384 ./Sources/gpio.o
+ .debug_info    0x00000384       0xe5 ./Sources/main.o
+ .debug_info    0x00000469      0x351 ./Sources/nordic.o
+ .debug_info    0x000007ba      0x19a ./Sources/project3.o
+ .debug_info    0x00000954      0x201 ./Sources/spi.o
+ .debug_info    0x00000b55       0x8e ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_info    0x00000be3      0x3ed ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_abbrev   0x00000000      0x3ff
- .debug_abbrev  0x00000000       0xe3 ./Sources/gpio.o
- .debug_abbrev  0x000000e3       0x6e ./Sources/main.o
- .debug_abbrev  0x00000151       0x5f ./Sources/project3.o
- .debug_abbrev  0x000001b0      0x132 ./Sources/spi.o
- .debug_abbrev  0x000002e2       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_abbrev  0x000002f6      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_abbrev   0x00000000      0x58e
+ .debug_abbrev  0x00000000       0xcd ./Sources/gpio.o
+ .debug_abbrev  0x000000cd       0xa2 ./Sources/main.o
+ .debug_abbrev  0x0000016f      0x10d ./Sources/nordic.o
+ .debug_abbrev  0x0000027c       0xc1 ./Sources/project3.o
+ .debug_abbrev  0x0000033d      0x134 ./Sources/spi.o
+ .debug_abbrev  0x00000471       0x14 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_abbrev  0x00000485      0x109 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_aranges  0x00000000       0xf8
+.debug_aranges  0x00000000      0x178
  .debug_aranges
-                0x00000000       0x30 ./Sources/gpio.o
+                0x00000000       0x20 ./Sources/gpio.o
  .debug_aranges
-                0x00000030       0x20 ./Sources/main.o
+                0x00000020       0x20 ./Sources/main.o
  .debug_aranges
-                0x00000050       0x20 ./Sources/project3.o
+                0x00000040       0x88 ./Sources/nordic.o
  .debug_aranges
-                0x00000070       0x40 ./Sources/spi.o
+                0x000000c8       0x28 ./Sources/project3.o
  .debug_aranges
-                0x000000b0       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+                0x000000f0       0x40 ./Sources/spi.o
  .debug_aranges
-                0x000000d0       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+                0x00000130       0x20 ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_aranges
+                0x00000150       0x28 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_ranges   0x00000000       0x88
- .debug_ranges  0x00000000       0x20 ./Sources/gpio.o
- .debug_ranges  0x00000020       0x10 ./Sources/main.o
- .debug_ranges  0x00000030       0x10 ./Sources/project3.o
- .debug_ranges  0x00000040       0x30 ./Sources/spi.o
- .debug_ranges  0x00000070       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_ranges   0x00000000       0xf8
+ .debug_ranges  0x00000000       0x10 ./Sources/gpio.o
+ .debug_ranges  0x00000010       0x10 ./Sources/main.o
+ .debug_ranges  0x00000020       0x78 ./Sources/nordic.o
+ .debug_ranges  0x00000098       0x18 ./Sources/project3.o
+ .debug_ranges  0x000000b0       0x30 ./Sources/spi.o
+ .debug_ranges  0x000000e0       0x18 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_macro    0x00000000     0x9ff5
- .debug_macro   0x00000000      0x184 ./Sources/gpio.o
- .debug_macro   0x00000184      0x802 ./Sources/gpio.o
- .debug_macro   0x00000986       0x16 ./Sources/gpio.o
- .debug_macro   0x0000099c       0x44 ./Sources/gpio.o
- .debug_macro   0x000009e0      0x209 ./Sources/gpio.o
- .debug_macro   0x00000be9       0x58 ./Sources/gpio.o
- .debug_macro   0x00000c41       0x35 ./Sources/gpio.o
- .debug_macro   0x00000c76       0xa3 ./Sources/gpio.o
- .debug_macro   0x00000d19       0x16 ./Sources/gpio.o
- .debug_macro   0x00000d2f       0x97 ./Sources/gpio.o
- .debug_macro   0x00000dc6       0x10 ./Sources/gpio.o
- .debug_macro   0x00000dd6       0xef ./Sources/gpio.o
- .debug_macro   0x00000ec5       0x52 ./Sources/gpio.o
- .debug_macro   0x00000f17       0x16 ./Sources/gpio.o
- .debug_macro   0x00000f2d       0x43 ./Sources/gpio.o
- .debug_macro   0x00000f70      0x180 ./Sources/gpio.o
- .debug_macro   0x000010f0       0x10 ./Sources/gpio.o
- .debug_macro   0x00001100       0x22 ./Sources/gpio.o
- .debug_macro   0x00001122       0xbd ./Sources/gpio.o
- .debug_macro   0x000011df       0x16 ./Sources/gpio.o
- .debug_macro   0x000011f5      0x14a ./Sources/gpio.o
- .debug_macro   0x0000133f       0x16 ./Sources/gpio.o
- .debug_macro   0x00001355       0x35 ./Sources/gpio.o
- .debug_macro   0x0000138a       0x22 ./Sources/gpio.o
- .debug_macro   0x000013ac       0x22 ./Sources/gpio.o
- .debug_macro   0x000013ce       0x4c ./Sources/gpio.o
- .debug_macro   0x0000141a       0x3a ./Sources/gpio.o
- .debug_macro   0x00001454       0x26 ./Sources/gpio.o
- .debug_macro   0x0000147a      0x306 ./Sources/gpio.o
- .debug_macro   0x00001780       0x63 ./Sources/gpio.o
- .debug_macro   0x000017e3     0x839f ./Sources/gpio.o
- .debug_macro   0x00009b82       0x89 ./Sources/main.o
- .debug_macro   0x00009c0b       0x16 ./Sources/main.o
- .debug_macro   0x00009c21       0x3a ./Sources/main.o
- .debug_macro   0x00009c5b      0x18e ./Sources/project3.o
- .debug_macro   0x00009de9      0x18e ./Sources/spi.o
- .debug_macro   0x00009f77       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_macro    0x00000000     0xa5e2
+ .debug_macro   0x00000000      0x189 ./Sources/gpio.o
+ .debug_macro   0x00000189      0x802 ./Sources/gpio.o
+ .debug_macro   0x0000098b       0x16 ./Sources/gpio.o
+ .debug_macro   0x000009a1       0x44 ./Sources/gpio.o
+ .debug_macro   0x000009e5      0x209 ./Sources/gpio.o
+ .debug_macro   0x00000bee       0x58 ./Sources/gpio.o
+ .debug_macro   0x00000c46       0x35 ./Sources/gpio.o
+ .debug_macro   0x00000c7b       0xa3 ./Sources/gpio.o
+ .debug_macro   0x00000d1e       0x16 ./Sources/gpio.o
+ .debug_macro   0x00000d34       0x97 ./Sources/gpio.o
+ .debug_macro   0x00000dcb       0x10 ./Sources/gpio.o
+ .debug_macro   0x00000ddb       0xef ./Sources/gpio.o
+ .debug_macro   0x00000eca       0x52 ./Sources/gpio.o
+ .debug_macro   0x00000f1c       0x16 ./Sources/gpio.o
+ .debug_macro   0x00000f32       0x43 ./Sources/gpio.o
+ .debug_macro   0x00000f75      0x180 ./Sources/gpio.o
+ .debug_macro   0x000010f5       0x10 ./Sources/gpio.o
+ .debug_macro   0x00001105       0x22 ./Sources/gpio.o
+ .debug_macro   0x00001127       0xbd ./Sources/gpio.o
+ .debug_macro   0x000011e4       0x16 ./Sources/gpio.o
+ .debug_macro   0x000011fa      0x14a ./Sources/gpio.o
+ .debug_macro   0x00001344       0x16 ./Sources/gpio.o
+ .debug_macro   0x0000135a       0x35 ./Sources/gpio.o
+ .debug_macro   0x0000138f       0x22 ./Sources/gpio.o
+ .debug_macro   0x000013b1       0x22 ./Sources/gpio.o
+ .debug_macro   0x000013d3       0x1c ./Sources/gpio.o
+ .debug_macro   0x000013ef       0x4c ./Sources/gpio.o
+ .debug_macro   0x0000143b       0x3a ./Sources/gpio.o
+ .debug_macro   0x00001475       0x26 ./Sources/gpio.o
+ .debug_macro   0x0000149b      0x306 ./Sources/gpio.o
+ .debug_macro   0x000017a1       0x63 ./Sources/gpio.o
+ .debug_macro   0x00001804     0x839f ./Sources/gpio.o
+ .debug_macro   0x00009ba3      0x194 ./Sources/main.o
+ .debug_macro   0x00009d37       0x16 ./Sources/main.o
+ .debug_macro   0x00009d4d       0x3a ./Sources/main.o
+ .debug_macro   0x00009d87       0x1c ./Sources/main.o
+ .debug_macro   0x00009da3      0x1af ./Sources/nordic.o
+ .debug_macro   0x00009f52       0xdc ./Sources/nordic.o
+ .debug_macro   0x0000a02e       0x22 ./Sources/nordic.o
+ .debug_macro   0x0000a050       0xde ./Sources/nordic.o
+ .debug_macro   0x0000a12e      0x1a5 ./Sources/project3.o
+ .debug_macro   0x0000a2d3       0xe2 ./Sources/project3.o
+ .debug_macro   0x0000a3b5       0x22 ./Sources/project3.o
+ .debug_macro   0x0000a3d7      0x18d ./Sources/spi.o
+ .debug_macro   0x0000a564       0x7e ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_line     0x00000000      0xd37
- .debug_line    0x00000000      0x2c8 ./Sources/gpio.o
- .debug_line    0x000002c8      0x1d2 ./Sources/main.o
- .debug_line    0x0000049a      0x2b4 ./Sources/project3.o
- .debug_line    0x0000074e      0x326 ./Sources/spi.o
- .debug_line    0x00000a74       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
- .debug_line    0x00000aef      0x248 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_line     0x00000000     0x123a
+ .debug_line    0x00000000      0x2a9 ./Sources/gpio.o
+ .debug_line    0x000002a9      0x2a5 ./Sources/main.o
+ .debug_line    0x0000054e      0x3ea ./Sources/nordic.o
+ .debug_line    0x00000938      0x319 ./Sources/project3.o
+ .debug_line    0x00000c51      0x326 ./Sources/spi.o
+ .debug_line    0x00000f77       0x7b ./Project_Settings/Startup_Code/startup_MKL25Z4.o
+ .debug_line    0x00000ff2      0x248 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_str      0x00000000    0x33c47
- .debug_str     0x00000000    0x33afa ./Sources/gpio.o
-                              0x33f7e (size before relaxing)
- .debug_str     0x00033afa       0x2a ./Sources/main.o
-                              0x31d9a (size before relaxing)
- .debug_str     0x00033b24       0x21 ./Sources/project3.o
-                              0x33e47 (size before relaxing)
- .debug_str     0x00033b45       0x6b ./Sources/spi.o
-                              0x33ec4 (size before relaxing)
- .debug_str     0x00033bb0       0x97 ./Project_Settings/Startup_Code/system_MKL25Z4.o
+.debug_str      0x00000000    0x3490d
+ .debug_str     0x00000000    0x33ba7 ./Sources/gpio.o
+                              0x3402b (size before relaxing)
+ .debug_str     0x00033ba7      0x136 ./Sources/main.o
+                              0x33f30 (size before relaxing)
+ .debug_str     0x00033cdd      0xacc ./Sources/nordic.o
+                              0x34a11 (size before relaxing)
+ .debug_str     0x000347a9       0x6c ./Sources/project3.o
+                              0x3436f (size before relaxing)
+ .debug_str     0x00034815       0x61 ./Sources/spi.o
+                              0x33f8a (size before relaxing)
+ .debug_str     0x00034876       0x97 ./Project_Settings/Startup_Code/system_MKL25Z4.o
                               0x31f0c (size before relaxing)
 
 .comment        0x00000000       0x70
  .comment       0x00000000       0x70 ./Sources/gpio.o
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 ./Sources/main.o
+ .comment       0x00000000       0x71 ./Sources/nordic.o
  .comment       0x00000000       0x71 ./Sources/project3.o
  .comment       0x00000000       0x71 ./Sources/spi.o
  .comment       0x00000000       0x71 ./Project_Settings/Startup_Code/system_MKL25Z4.o
 
-.debug_frame    0x00000000      0x248
- .debug_frame   0x00000000       0x64 ./Sources/gpio.o
- .debug_frame   0x00000064       0x2c ./Sources/main.o
- .debug_frame   0x00000090       0x30 ./Sources/project3.o
- .debug_frame   0x000000c0       0xa8 ./Sources/spi.o
- .debug_frame   0x00000168       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
- .debug_frame   0x000001b4       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
- .debug_frame   0x000001dc       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
- .debug_frame   0x00000208       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
- .debug_frame   0x00000228       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)
+.debug_frame    0x00000000      0x41c
+ .debug_frame   0x00000000       0x2c ./Sources/gpio.o
+ .debug_frame   0x0000002c       0x2c ./Sources/main.o
+ .debug_frame   0x00000058      0x1c8 ./Sources/nordic.o
+ .debug_frame   0x00000220       0x4c ./Sources/project3.o
+ .debug_frame   0x0000026c       0xa8 ./Sources/spi.o
+ .debug_frame   0x00000314       0x4c ./Project_Settings/Startup_Code/system_MKL25Z4.o
+ .debug_frame   0x00000360       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-exit.o)
+ .debug_frame   0x00000388       0x2c /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-init.o)
+ .debug_frame   0x000003b4       0x28 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x000003dc       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libg_s.a(lib_a-memset.o)
+ .debug_frame   0x000003fc       0x20 /opt/Freescale/KDS_v3/toolchain/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv6-m/libnosys.a(_exit.o)

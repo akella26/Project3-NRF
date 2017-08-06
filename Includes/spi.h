@@ -4,7 +4,7 @@
  * This file contains standard include libraries and memory manipulation header files
  *
  * @author Sowmya Akella
- * @date June 25, 2017
+ * @date Aug 2, 2017
  *
  */
 
@@ -16,14 +16,44 @@
 # include <stdlib.h>
 # include <stdbool.h>
 
-void SPI_write_byte(uint8_t byte);
+/*
+This function copies byte by byte from source to destination
+NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
+Inputs - pointer to source, pointer to destination, length of the bytes to be copied
+Returns - uint8_t error code
+*/
+uint8_t SPI_write_byte(uint8_t byte);
 
-void SPI_read_byte(uint8_t byte);
+/*
+This function copies byte by byte from source to destination
+NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
+Inputs - pointer to source, pointer to destination, length of the bytes to be copied
+Returns - uint8_t error code
+*/
+uint8_t SPI_read_byte(uint8_t byte);
 
+/*
+This function copies byte by byte from source to destination
+NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
+Inputs - pointer to source, pointer to destination, length of the bytes to be copied
+Returns - uint8_t error code
+*/
 void SPI_init(void);
 
+/*
+This function copies byte by byte from source to destination
+NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
+Inputs - pointer to source, pointer to destination, length of the bytes to be copied
+Returns - uint8_t error code
+*/
 void SPI_send_packet(uint8_t * p, size_t length);
 
+/*
+This function copies byte by byte from source to destination
+NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
+Inputs - pointer to source, pointer to destination, length of the bytes to be copied
+Returns - uint8_t error code
+*/
 void SPI_flush();
 
 #endif /* __SPI_H__ */

@@ -12,28 +12,19 @@
 
 void GPIO_nrf_init()
 {
-	SIM_SCGC5 |= SIM_SCGC5_PORTD_MASK;      //Turn on clock to D module
+	SIM_SCGC5 |= SIM_SCGC5_PORTC_MASK;      //Turn on clock to C module since blue led connected to D port
 	SIM_SCGC4 |= SIM_SCGC4_SPI0_MASK;       //Enable SPI0 clock
-
-	PTB_BASE_PTR->PDDR = 1 << 0;			//Set output direction for PTD0
-	PORTD_PCR0 = PORT_PCR_MUX(0x1);    		//Set PTD0 to mux 1 GPIO as we are not choosing auto Slave Select
-	GPIO_CS_high();							//Keep it high initially
-	PORTD_PCR1 = PORT_PCR_MUX(0x2);    		//Set PTD1 to mux 2 [SPI0_SCK]
-	PORTD_PCR2 = PORT_PCR_MUX(0x2);    		//Set PTD2 to mux 2 [SPI0_MOSI]
-	PORTD_PCR3 = PORT_PCR_MUX(0x2);    		//Set PTD3 to mux 2 [SPIO_MISO]
-
-	PTB_BASE_PTR->PDDR = 1 << 5;			//Set output direction for PTD5 CE pin
-	PORTD_PCR5 = PORT_PCR_MUX(0x1);    		//Set PTD0 to mux 1 GPIO as we are not choosing auto Slave Select
-}
-
-void GPIO_CS_high()
-{
-	PTD_BASE_PTR->PSOR = 1 << 0;            //Setting Chip select pin to high for PTD0
-}
-
-void GPIO_CS_low()
-{
-	PTD_BASE_PTR->PCOR = 1 << 0;            //Setting Chip select pin to high for PTD0
+	//CS
+	PTC_BASE_PTR->PDDR = (1<<4);			//Set output direction for PTC4 - CS
+	nrf_chip_disable();						//Initially disabling slave select pin
+	//SCK, MOSI,MISO
+	PORTC_PCR4 = PORT_PCR_MUX(0x1);    		//Set PTC4 to mux 1 GPIO as we are not choosing auto Slave Select
+	PORTC_PCR5 = PORT_PCR_MUX(0x2);    		//Set PTC5 to mux 2 [SPI0_SCK]
+	PORTC_PCR6 = PORT_PCR_MUX(0x2);    		//Set PTC6 to mux 2 [SPI0_MOSI]
+	PORTC_PCR7 = PORT_PCR_MUX(0x2);    		//Set PTC7 to mux 2 [SPIO_MISO]
+	//CE
+	PORTC_PCR8 = PORT_PCR_MUX(0x1);    		//Set PTC8 to mux 1 GPIO as we are not choosing auto Slave Select
+	nrf_transmit_enable();					//Enabling channel enable
 }
 
 
