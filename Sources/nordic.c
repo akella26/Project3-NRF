@@ -1,6 +1,6 @@
 /**
  * @file nordic.c
- * @brief This file is to be used to project 3.
+ * @brief This file is to be used in project 3  - nordic seting and config and writing and reading
  *
  * @author Sowmya
  * @date Aug 2, 2017

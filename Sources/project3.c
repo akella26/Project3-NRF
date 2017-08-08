@@ -1,6 +1,6 @@
 /**
  * @file project3.c
- * @brief This file is to be used in project 3.
+ * @brief This file is to be used in project 3 for testing SPI driver and Nordic.c
  *
  * @author Sowmya
  * @date Aug 2, 2017

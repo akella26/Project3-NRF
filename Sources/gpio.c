@@ -1,6 +1,6 @@
 /**
  * @file gpio.c
- * @brief This file is to be used to project 3.
+ * @brief This file is to be used to project 3 gpio initialization
  *
  * @author Sowmya
  * @date Aug 2, 2017

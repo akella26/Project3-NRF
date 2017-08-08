@@ -1,7 +1,6 @@
 /**
  * @file spi.h
- * @brief This file is the header files and function prototypes needed for compiling the memory.c file
- * This file contains standard include libraries and memory manipulation header files
+ * @brief This file is the header files and function prototypes for the SPI driver in project3
  *
  * @author Sowmya Akella
  * @date Aug 2, 2017
@@ -17,42 +16,37 @@
 # include <stdbool.h>
 
 /*
-This function copies byte by byte from source to destination
-NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
-Inputs - pointer to source, pointer to destination, length of the bytes to be copied
-Returns - uint8_t error code
+Writes bytes using SPI to the peripheral. BLocks until write is complete.
+Inputs - Byte to be written
+Returns - uint8_t Byte read after writing
 */
 uint8_t SPI_write_byte(uint8_t byte);
 
 /*
-This function copies byte by byte from source to destination
-NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
-Inputs - pointer to source, pointer to destination, length of the bytes to be copied
-Returns - uint8_t error code
+Reads bytes from the SPI by checking masks. BLocks until read is complete.
+Inputs - Byte to be read
+Returns - uint8_t byte read from SPI bus
 */
 uint8_t SPI_read_byte(uint8_t byte);
 
 /*
-This function copies byte by byte from source to destination
-NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
-Inputs - pointer to source, pointer to destination, length of the bytes to be copied
-Returns - uint8_t error code
+Initialized SPI configuration registers with baud rate and slave master config
+Inputs - None
+Returns - None
 */
 void SPI_init(void);
 
 /*
-This function copies byte by byte from source to destination
-NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
-Inputs - pointer to source, pointer to destination, length of the bytes to be copied
-Returns - uint8_t error code
+Sends packet of length across SPI bus
+Inputs - pointer to bytes that need to be sent and length of the packet
+Returns - None
 */
 void SPI_send_packet(uint8_t * p, size_t length);
 
 /*
-This function copies byte by byte from source to destination
-NOTE : my_memmove() checks the lengths of source and destination hence no memory is corrupted
-Inputs - pointer to source, pointer to destination, length of the bytes to be copied
-Returns - uint8_t error code
+Blocks until and SPI transmit buffer is empty
+Inputs - None
+Returns - None
 */
 void SPI_flush();
 

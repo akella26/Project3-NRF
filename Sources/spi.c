@@ -1,6 +1,7 @@
 /**
  * @file spi.c
  * @brief This file is to be used to project 3.
+ * Contains the SPI config , writing, reading and flush
  *
  * @author Sowmya
  * @date Aug 2, 2017
